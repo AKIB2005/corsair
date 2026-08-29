@@ -94,6 +94,7 @@ export const BaseProviders = [
 	'canva',
 	'canvas',
 	'chatbotkit',
+	'cincopa',
 	'circleci',
 	'clientary',
 	'clockify',
@@ -315,6 +316,7 @@ export const ProviderDisplayNames = {
 	canva: 'Canva',
 	canvas: 'Canvas LMS',
 	chatbotkit: 'ChatBotKit',
+	cincopa: 'Cincopa',
 	circleci: 'CircleCI',
 	clientary: 'Clientary',
 	clockify: 'Clockify',
@@ -543,6 +545,7 @@ export type AllProviders =
 	| 'canva'
 	| 'canvas'
 	| 'chatbotkit'
+	| 'cincopa'
 	| 'circleci'
 	| 'clientary'
 	| 'clockify'
